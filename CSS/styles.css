@@ -28,7 +28,7 @@
     width: 30px;
     margin-bottom: 5rem;
     padding-left: 50rem;
-    padding-bottom: 20rem;
+    padding-bottom: 2rem;
 }
 
 ul{
@@ -109,7 +109,18 @@ ul li a{
     position: static;
     float:left;
 }
+.btn:hover{
+    background-color:green ;
+    transition:0.4s ease-in-out;
+}
 .text h2{
     font-family: 'Times New Roman';
     margin-bottom: 5rem;
+}
+.form{
+    float: left;
+    position: absolute;
+    background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    height: 3.5vh;
+    left: 45rem;
 }
